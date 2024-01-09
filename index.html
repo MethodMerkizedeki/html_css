@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First html file</title>
+    <link rel="stylesheet" href="styles.css">
+    /*
+    inline css
+    */
+    <style>
+        h2 {
+            color: darkblue;
+            font-size: 70px;
+            margin: 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        p {
+            color: aqua;
+        }
+    </style>
 </head>
 <body>
     <p title="some website content" style="color: blueviolet;">Method is DIT best iinovator of the year 2023</p>
@@ -14,7 +30,7 @@
             <h3>Here you can see all the latest posts</h3>
         </div>
         <h2>Latest posts</h2>
-        <h3>Here you can see all the latest posts</h3>
+        <h3 style="color: beige;">Here you can see all the latest posts</h3>
         <article>
             <h4>This is the post title</h4>
             <p>This is some content inside the post</p>
@@ -23,7 +39,7 @@
         <article>
             <h4>This is the post title</h4>
             <p>This is some content <br> inside the post</p>
-            <h5>Author: Method</h5>
+            <h5 class="author">Author: Method</h5>
         </article>
     </section>
 </body> 
